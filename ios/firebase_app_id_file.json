@@ -1,7 +1,7 @@
 {
   "file_generated_by": "FlutterFire CLI",
   "purpose": "FirebaseAppID & ProjectID for this Firebase app in this directory",
-  "GOOGLE_APP_ID": "1:665208381476:ios:1ca700afeb1555178af8b1",
-  "FIREBASE_PROJECT_ID": "food-ninja-f7b7c",
-  "GCM_SENDER_ID": "665208381476"
+  "GOOGLE_APP_ID": "1:721695696296:ios:27bb94bc48efa6a18ca99d",
+  "FIREBASE_PROJECT_ID": "flutter-animo-eats-d4b36",
+  "GCM_SENDER_ID": "721695696296"
 }

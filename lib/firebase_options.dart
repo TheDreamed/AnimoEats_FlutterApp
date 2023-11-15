@@ -47,29 +47,31 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDDtf654ha_rJ6_Ia4NFRPZCLl0pCfKa3o',
-    appId: '1:665208381476:web:2c0df0e7741a2bf58af8b1',
-    messagingSenderId: '665208381476',
-    projectId: 'food-ninja-f7b7c',
-    authDomain: 'food-ninja-f7b7c.firebaseapp.com',
-    storageBucket: 'food-ninja-f7b7c.appspot.com',
+    apiKey: 'AIzaSyDbfp7mNVTlqLfMz25ZCdcddXYTNLehBBw',
+    appId: '1:721695696296:web:a4aea06b7302bc378ca99d',
+    messagingSenderId: '721695696296',
+    projectId: 'flutter-animo-eats-d4b36',
+    authDomain: 'flutter-animo-eats-d4b36.firebaseapp.com',
+    databaseURL: 'https://flutter-animo-eats-d4b36-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'flutter-animo-eats-d4b36.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyD7H07umbLHgyQ3HwypY-CqauI_4b4eywo',
-    appId: '1:665208381476:android:e842564e4422cb3d8af8b1',
-    messagingSenderId: '665208381476',
-    projectId: 'food-ninja-f7b7c',
-    storageBucket: 'food-ninja-f7b7c.appspot.com',
+    apiKey: 'AIzaSyBLPrwbNmDWo486rcfvScoA4FTMd_XvN1E',
+    appId: '1:721695696296:android:7a0f3d33804652788ca99d',
+    messagingSenderId: '721695696296',
+    projectId: 'flutter-animo-eats-d4b36',
+    databaseURL: 'https://flutter-animo-eats-d4b36-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'flutter-animo-eats-d4b36.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBViYz3hVxzQZW_PbG5dsvuvAHMHjpRywY',
-    appId: '1:665208381476:ios:1ca700afeb1555178af8b1',
-    messagingSenderId: '665208381476',
-    projectId: 'food-ninja-f7b7c',
-    storageBucket: 'food-ninja-f7b7c.appspot.com',
-    iosClientId: '665208381476-eg3dt1phf02bk05bus035nmtg7qofbni.apps.googleusercontent.com',
+    apiKey: 'AIzaSyAE1-EmIcK5F358eL5NNYGDSOsNYCoZ7pk',
+    appId: '1:721695696296:ios:27bb94bc48efa6a18ca99d',
+    messagingSenderId: '721695696296',
+    projectId: 'flutter-animo-eats-d4b36',
+    databaseURL: 'https://flutter-animo-eats-d4b36-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'flutter-animo-eats-d4b36.appspot.com',
     iosBundleId: 'com.shokhrukhbek.foodNinja',
   );
 }

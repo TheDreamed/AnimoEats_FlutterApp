@@ -2,22 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CLIENT_ID</key>
-	<string>665208381476-81um3u7uen1pilsttdn1440igr3i0tak.apps.googleusercontent.com</string>
-	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.665208381476-81um3u7uen1pilsttdn1440igr3i0tak</string>
 	<key>API_KEY</key>
-	<string>AIzaSyBViYz3hVxzQZW_PbG5dsvuvAHMHjpRywY</string>
+	<string>AIzaSyAE1-EmIcK5F358eL5NNYGDSOsNYCoZ7pk</string>
 	<key>GCM_SENDER_ID</key>
-	<string>665208381476</string>
+	<string>721695696296</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.shokhrukhbek.foodNinja</string>
 	<key>PROJECT_ID</key>
-	<string>food-ninja-f7b7c</string>
+	<string>flutter-animo-eats-d4b36</string>
 	<key>STORAGE_BUCKET</key>
-	<string>food-ninja-f7b7c.appspot.com</string>
+	<string>flutter-animo-eats-d4b36.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +25,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:665208381476:ios:2a1c45d8523d68198af8b1</string>
+	<string>1:721695696296:ios:27bb94bc48efa6a18ca99d</string>
+	<key>DATABASE_URL</key>
+	<string>https://flutter-animo-eats-d4b36-default-rtdb.asia-southeast1.firebasedatabase.app</string>
 </dict>
 </plist>
