@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:food_ninja/ui/widgets/buttons/primary_button.dart';
-import 'package:food_ninja/utils/app_colors.dart';
-import 'package:food_ninja/utils/custom_text_style.dart';
+import 'package:animo_eats/ui/widgets/buttons/primary_button.dart';
+import 'package:animo_eats/utils/app_colors.dart';
+import 'package:animo_eats/utils/custom_text_style.dart';
 
 class RegisterSuccessScreen extends StatelessWidget {
   const RegisterSuccessScreen({super.key});

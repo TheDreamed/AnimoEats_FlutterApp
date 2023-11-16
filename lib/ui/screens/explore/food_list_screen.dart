@@ -2,12 +2,12 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:food_ninja/bloc/food/food_bloc.dart';
-import 'package:food_ninja/models/food.dart';
-import 'package:food_ninja/ui/widgets/buttons/back_button.dart';
-import 'package:food_ninja/ui/widgets/items/food_item.dart';
-import 'package:food_ninja/ui/widgets/search_filter_widget.dart';
-import 'package:food_ninja/utils/custom_text_style.dart';
+import 'package:animo_eats/bloc/food/food_bloc.dart';
+import 'package:animo_eats/models/food.dart';
+import 'package:animo_eats/ui/widgets/buttons/back_button.dart';
+import 'package:animo_eats/ui/widgets/items/food_item.dart';
+import 'package:animo_eats/ui/widgets/search_filter_widget.dart';
+import 'package:animo_eats/utils/custom_text_style.dart';
 
 class FoodListScreen extends StatefulWidget {
   const FoodListScreen({super.key});

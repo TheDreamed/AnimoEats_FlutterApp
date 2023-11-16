@@ -1,5 +1,5 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:food_ninja/services/firebase_auth.dart';
+import 'package:animo_eats/services/firebase_auth.dart';
 import 'package:hive/hive.dart';
 
 class SettingsRepository {

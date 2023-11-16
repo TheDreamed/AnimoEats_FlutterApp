@@ -2,15 +2,15 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:food_ninja/bloc/chat/chat_bloc.dart';
-import 'package:food_ninja/models/message.dart';
-import 'package:food_ninja/models/user.dart';
-import 'package:food_ninja/ui/widgets/buttons/back_button.dart';
-import 'package:food_ninja/ui/widgets/chat_bubble.dart';
-import 'package:food_ninja/ui/widgets/image_placeholder.dart';
-import 'package:food_ninja/utils/app_colors.dart';
-import 'package:food_ninja/utils/app_styles.dart';
-import 'package:food_ninja/utils/custom_text_style.dart';
+import 'package:animo_eats/bloc/chat/chat_bloc.dart';
+import 'package:animo_eats/models/message.dart';
+import 'package:animo_eats/models/user.dart';
+import 'package:animo_eats/ui/widgets/buttons/back_button.dart';
+import 'package:animo_eats/ui/widgets/chat_bubble.dart';
+import 'package:animo_eats/ui/widgets/image_placeholder.dart';
+import 'package:animo_eats/utils/app_colors.dart';
+import 'package:animo_eats/utils/app_styles.dart';
+import 'package:animo_eats/utils/custom_text_style.dart';
 import 'package:hive/hive.dart';
 
 class ChatDetailsScreen extends StatefulWidget {

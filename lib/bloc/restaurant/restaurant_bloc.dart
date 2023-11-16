@@ -1,9 +1,9 @@
 import 'package:bloc/bloc.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/foundation.dart';
-import 'package:food_ninja/models/food.dart';
-import 'package:food_ninja/models/restaurant.dart';
-import 'package:food_ninja/repositories/restaurant_repository.dart';
+import 'package:animo_eats/models/food.dart';
+import 'package:animo_eats/models/restaurant.dart';
+import 'package:animo_eats/repositories/restaurant_repository.dart';
 part 'restaurant_event.dart';
 part 'restaurant_state.dart';
 

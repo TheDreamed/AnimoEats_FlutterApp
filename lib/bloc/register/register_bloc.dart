@@ -2,7 +2,7 @@ import 'package:bloc/bloc.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart';
 
-import 'package:food_ninja/services/firebase_auth.dart';
+import 'package:animo_eats/services/firebase_auth.dart';
 import 'package:hive/hive.dart';
 
 part 'register_event.dart';

@@ -2,8 +2,8 @@ import 'package:bloc/bloc.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
-import 'package:food_ninja/models/testimonial.dart';
-import 'package:food_ninja/repositories/testimonial_repository.dart';
+import 'package:animo_eats/models/testimonial.dart';
+import 'package:animo_eats/repositories/testimonial_repository.dart';
 part 'testimonial_event.dart';
 part 'testimonial_state.dart';
 

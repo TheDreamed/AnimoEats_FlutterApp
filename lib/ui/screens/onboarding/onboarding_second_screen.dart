@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:food_ninja/ui/widgets/buttons/primary_button.dart';
-import 'package:food_ninja/utils/custom_text_style.dart';
+import 'package:animo_eats/ui/widgets/buttons/primary_button.dart';
+import 'package:animo_eats/utils/custom_text_style.dart';
 
 class OnboardingSecondScreen extends StatelessWidget {
   const OnboardingSecondScreen({super.key});
@@ -20,7 +20,7 @@ class OnboardingSecondScreen extends StatelessWidget {
               ),
               const SizedBox(height: 40),
               Text(
-                "Food Ninja is Where Your Comfort \nFood Lives",
+                "Animo Eats is Where Your Comfort \nFood Lives",
                 textAlign: TextAlign.center,
                 style: CustomTextStyle.size22Weight600Text(),
               ),

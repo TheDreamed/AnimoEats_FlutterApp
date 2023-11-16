@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:food_ninja/models/food.dart';
+import 'package:animo_eats/models/food.dart';
 
 import '../services/firestore_db.dart';
 

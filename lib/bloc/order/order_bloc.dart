@@ -1,8 +1,8 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/foundation.dart';
-import 'package:food_ninja/models/food.dart';
-import 'package:food_ninja/models/order.dart';
-import 'package:food_ninja/repositories/order_repository.dart';
+import 'package:animo_eats/models/food.dart';
+import 'package:animo_eats/models/order.dart';
+import 'package:animo_eats/repositories/order_repository.dart';
 
 part 'order_event.dart';
 part 'order_state.dart';

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:food_ninja/repositories/order_repository.dart';
-import 'package:food_ninja/ui/widgets/buttons/secondary_button.dart';
-import 'package:food_ninja/utils/app_colors.dart';
-import 'package:food_ninja/utils/app_styles.dart';
-import 'package:food_ninja/utils/custom_text_style.dart';
+import 'package:animo_eats/repositories/order_repository.dart';
+import 'package:animo_eats/ui/widgets/buttons/secondary_button.dart';
+import 'package:animo_eats/utils/app_colors.dart';
+import 'package:animo_eats/utils/app_styles.dart';
+import 'package:animo_eats/utils/custom_text_style.dart';
 
 class PriceInfoWidget extends StatelessWidget {
   final VoidCallback onTap;

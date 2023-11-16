@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:food_ninja/services/firestore_db.dart';
-import 'package:food_ninja/ui/screens/set_location_map_screen.dart';
-import 'package:food_ninja/ui/widgets/buttons/back_button.dart';
-import 'package:food_ninja/ui/widgets/buttons/default_button.dart';
-import 'package:food_ninja/ui/widgets/buttons/primary_button.dart';
-import 'package:food_ninja/models/user.dart';
-import 'package:food_ninja/ui/widgets/loading_indicator.dart';
-import 'package:food_ninja/utils/app_colors.dart';
-import 'package:food_ninja/utils/app_styles.dart';
-import 'package:food_ninja/utils/custom_text_style.dart';
+import 'package:animo_eats/services/firestore_db.dart';
+import 'package:animo_eats/ui/screens/set_location_map_screen.dart';
+import 'package:animo_eats/ui/widgets/buttons/back_button.dart';
+import 'package:animo_eats/ui/widgets/buttons/default_button.dart';
+import 'package:animo_eats/ui/widgets/buttons/primary_button.dart';
+import 'package:animo_eats/models/user.dart';
+import 'package:animo_eats/ui/widgets/loading_indicator.dart';
+import 'package:animo_eats/utils/app_colors.dart';
+import 'package:animo_eats/utils/app_styles.dart';
+import 'package:animo_eats/utils/custom_text_style.dart';
 import 'package:hive/hive.dart';
 
 class SetLocationScreen extends StatefulWidget {

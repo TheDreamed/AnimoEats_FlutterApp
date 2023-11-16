@@ -1,7 +1,7 @@
-import 'package:food_ninja/models/order.dart' as model;
-import 'package:food_ninja/models/order_status.dart';
-import 'package:food_ninja/models/payment_method.dart';
-import 'package:food_ninja/services/firestore_db.dart';
+import 'package:animo_eats/models/order.dart' as model;
+import 'package:animo_eats/models/order_status.dart';
+import 'package:animo_eats/models/payment_method.dart';
+import 'package:animo_eats/services/firestore_db.dart';
 import 'package:hive/hive.dart';
 
 import '../models/food.dart';

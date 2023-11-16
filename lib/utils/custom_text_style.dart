@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:food_ninja/utils/app_colors.dart';
+import 'package:animo_eats/utils/app_colors.dart';
 
 class CustomTextStyle {
   static TextStyle size30Weight600Text([Color? color]) {

@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:food_ninja/bloc/order/order_bloc.dart';
-import 'package:food_ninja/repositories/order_repository.dart';
-import 'package:food_ninja/ui/widgets/buttons/back_button.dart';
-import 'package:food_ninja/ui/widgets/items/cart_item.dart';
-import 'package:food_ninja/ui/widgets/price_info_widget.dart';
-import 'package:food_ninja/utils/app_colors.dart';
-import 'package:food_ninja/utils/app_styles.dart';
-import 'package:food_ninja/utils/custom_text_style.dart';
+import 'package:animo_eats/bloc/order/order_bloc.dart';
+import 'package:animo_eats/repositories/order_repository.dart';
+import 'package:animo_eats/ui/widgets/buttons/back_button.dart';
+import 'package:animo_eats/ui/widgets/items/cart_item.dart';
+import 'package:animo_eats/ui/widgets/price_info_widget.dart';
+import 'package:animo_eats/utils/app_colors.dart';
+import 'package:animo_eats/utils/app_styles.dart';
+import 'package:animo_eats/utils/custom_text_style.dart';
 
 class CartScreen extends StatelessWidget {
   const CartScreen({super.key});

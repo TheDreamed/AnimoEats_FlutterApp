@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:food_ninja/models/food.dart';
-import 'package:food_ninja/models/restaurant.dart';
-import 'package:food_ninja/services/firestore_db.dart';
+import 'package:animo_eats/models/food.dart';
+import 'package:animo_eats/models/restaurant.dart';
+import 'package:animo_eats/services/firestore_db.dart';
 import 'package:hive/hive.dart';
 
 import '../models/user.dart';

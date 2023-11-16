@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:food_ninja/secrets.dart';
-import 'package:food_ninja/services/geoservices.dart';
-import 'package:food_ninja/ui/widgets/loading_indicator.dart';
-import 'package:food_ninja/utils/app_colors.dart';
+import 'package:animo_eats/secrets.dart';
+import 'package:animo_eats/services/geoservices.dart';
+import 'package:animo_eats/ui/widgets/loading_indicator.dart';
+import 'package:animo_eats/utils/app_colors.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:hive/hive.dart';
 import 'package:latlong2/latlong.dart';

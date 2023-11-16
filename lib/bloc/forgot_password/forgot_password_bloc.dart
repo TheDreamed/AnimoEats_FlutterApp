@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:food_ninja/services/firebase_auth.dart';
+import 'package:animo_eats/services/firebase_auth.dart';
 
 part 'forgot_password_event.dart';
 part 'forgot_password_state.dart';

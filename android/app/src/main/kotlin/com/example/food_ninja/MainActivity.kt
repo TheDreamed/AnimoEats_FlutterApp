@@ -1,4 +1,4 @@
-package com.shokhrukhbek.food_ninja
+package com.bjkinc.animo_eats
 
 import io.flutter.embedding.android.FlutterActivity
 

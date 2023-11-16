@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:food_ninja/utils/app_colors.dart';
+import 'package:animo_eats/utils/app_colors.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
 class AppStyles {

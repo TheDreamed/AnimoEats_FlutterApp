@@ -1,9 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart';
 import 'package:bloc/bloc.dart';
-import 'package:food_ninja/services/firebase_auth.dart';
-import 'package:food_ninja/services/firestore_db.dart';
-import 'package:food_ninja/models/user.dart' as model;
+import 'package:animo_eats/services/firebase_auth.dart';
+import 'package:animo_eats/services/firestore_db.dart';
+import 'package:animo_eats/models/user.dart' as model;
 import 'package:hive_flutter/hive_flutter.dart';
 part 'login_event.dart';
 part 'login_state.dart';

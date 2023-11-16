@@ -1,8 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:equatable/equatable.dart';
-import 'package:food_ninja/models/food.dart';
-import 'package:food_ninja/models/order_status.dart';
-import 'package:food_ninja/models/payment_method.dart';
+import 'package:animo_eats/models/food.dart';
+import 'package:animo_eats/models/order_status.dart';
+import 'package:animo_eats/models/payment_method.dart';
 
 // ignore: must_be_immutable
 class Order extends Equatable {

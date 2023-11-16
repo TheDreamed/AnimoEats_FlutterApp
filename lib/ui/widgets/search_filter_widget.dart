@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:food_ninja/ui/widgets/filter_widget.dart';
-import 'package:food_ninja/ui/widgets/search_field.dart';
+import 'package:animo_eats/ui/widgets/filter_widget.dart';
+import 'package:animo_eats/ui/widgets/search_field.dart';
 
 class SearchFilterWidget extends StatelessWidget {
   const SearchFilterWidget({

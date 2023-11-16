@@ -1,8 +1,8 @@
 import 'package:bloc/bloc.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/foundation.dart';
-import 'package:food_ninja/models/food.dart';
-import 'package:food_ninja/repositories/food_repository.dart';
+import 'package:animo_eats/models/food.dart';
+import 'package:animo_eats/repositories/food_repository.dart';
 part 'food_event.dart';
 part 'food_state.dart';
 

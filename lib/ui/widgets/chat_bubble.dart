@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:food_ninja/models/message.dart';
-import 'package:food_ninja/utils/app_colors.dart';
-import 'package:food_ninja/utils/app_styles.dart';
+import 'package:animo_eats/models/message.dart';
+import 'package:animo_eats/utils/app_colors.dart';
+import 'package:animo_eats/utils/app_styles.dart';
 import 'package:hive/hive.dart';
 
 class ChatBubble extends StatelessWidget {

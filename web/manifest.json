@@ -1,6 +1,6 @@
 {
-    "name": "food_ninja",
-    "short_name": "food_ninja",
+    "name": "animo_eats",
+    "short_name": "animo_eats",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

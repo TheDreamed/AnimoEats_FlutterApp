@@ -1,8 +1,8 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
-import 'package:food_ninja/models/message.dart';
-import 'package:food_ninja/repositories/chat_repository.dart';
+import 'package:animo_eats/models/message.dart';
+import 'package:animo_eats/repositories/chat_repository.dart';
 
 part 'chat_event.dart';
 part 'chat_state.dart';

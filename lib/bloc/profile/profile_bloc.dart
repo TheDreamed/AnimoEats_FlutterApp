@@ -1,9 +1,9 @@
 import 'package:bloc/bloc.dart';
 
 import 'package:flutter/foundation.dart';
-import 'package:food_ninja/models/food.dart';
-import 'package:food_ninja/models/restaurant.dart';
-import 'package:food_ninja/repositories/profile_repository.dart';
+import 'package:animo_eats/models/food.dart';
+import 'package:animo_eats/models/restaurant.dart';
+import 'package:animo_eats/repositories/profile_repository.dart';
 
 part 'profile_event.dart';
 part 'profile_state.dart';

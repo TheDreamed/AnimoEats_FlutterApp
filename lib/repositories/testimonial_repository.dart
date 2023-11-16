@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:food_ninja/models/testimonial.dart';
-import 'package:food_ninja/services/firestore_db.dart';
+import 'package:animo_eats/models/testimonial.dart';
+import 'package:animo_eats/services/firestore_db.dart';
 import 'package:hive/hive.dart';
 
 class TestimonialRepository {

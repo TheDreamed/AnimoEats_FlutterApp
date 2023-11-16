@@ -1,6 +1,6 @@
-# Food Ninja
+# Animo Eats
 
-Food Ninja is a food delivery app created using Flutter, Firebase, BLoC.
+Animo Eats is a food delivery app created using Flutter, Firebase, BLoC.
 
 ## Features
 

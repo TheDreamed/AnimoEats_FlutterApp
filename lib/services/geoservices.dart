@@ -1,4 +1,4 @@
-import 'package:food_ninja/secrets.dart';
+import 'package:animo_eats/secrets.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:dio/dio.dart';
 

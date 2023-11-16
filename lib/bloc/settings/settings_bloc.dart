@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:food_ninja/repositories/settings_repository.dart';
+import 'package:animo_eats/repositories/settings_repository.dart';
 
 part 'settings_event.dart';
 part 'settings_state.dart';

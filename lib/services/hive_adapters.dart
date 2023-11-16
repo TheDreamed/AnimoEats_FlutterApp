@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:food_ninja/models/food.dart';
-import 'package:food_ninja/models/restaurant.dart';
+import 'package:animo_eats/models/food.dart';
+import 'package:animo_eats/models/restaurant.dart';
 import 'package:hive_flutter/adapters.dart';
 
 class FirestoreDocumentReferenceAdapter extends TypeAdapter<DocumentReference> {

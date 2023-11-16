@@ -1,22 +1,22 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:food_ninja/bloc/chat/chat_bloc.dart';
-import 'package:food_ninja/bloc/food/food_bloc.dart';
-import 'package:food_ninja/bloc/forgot_password/forgot_password_bloc.dart';
-import 'package:food_ninja/bloc/login/login_bloc.dart';
-import 'package:food_ninja/bloc/order/order_bloc.dart';
-import 'package:food_ninja/bloc/profile/profile_bloc.dart';
-import 'package:food_ninja/bloc/register/register_bloc.dart';
-import 'package:food_ninja/bloc/settings/settings_bloc.dart';
-import 'package:food_ninja/bloc/testimonial/testimonial_bloc.dart';
-import 'package:food_ninja/bloc/theme/theme_bloc.dart';
-import 'package:food_ninja/repositories/order_repository.dart';
-import 'package:food_ninja/services/hive_adapters.dart';
-import 'package:food_ninja/utils/app_router.dart';
-import 'package:food_ninja/utils/app_theme.dart';
+import 'package:animo_eats/bloc/chat/chat_bloc.dart';
+import 'package:animo_eats/bloc/food/food_bloc.dart';
+import 'package:animo_eats/bloc/forgot_password/forgot_password_bloc.dart';
+import 'package:animo_eats/bloc/login/login_bloc.dart';
+import 'package:animo_eats/bloc/order/order_bloc.dart';
+import 'package:animo_eats/bloc/profile/profile_bloc.dart';
+import 'package:animo_eats/bloc/register/register_bloc.dart';
+import 'package:animo_eats/bloc/settings/settings_bloc.dart';
+import 'package:animo_eats/bloc/testimonial/testimonial_bloc.dart';
+import 'package:animo_eats/bloc/theme/theme_bloc.dart';
+import 'package:animo_eats/repositories/order_repository.dart';
+import 'package:animo_eats/services/hive_adapters.dart';
+import 'package:animo_eats/utils/app_router.dart';
+import 'package:animo_eats/utils/app_theme.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:food_ninja/bloc/restaurant/restaurant_bloc.dart';
+import 'package:animo_eats/bloc/restaurant/restaurant_bloc.dart';
 import 'firebase_options.dart';
 
 Future<void> main() async {
@@ -90,7 +90,7 @@ class MyApp extends StatelessWidget {
         }
 
         return MaterialApp(
-          title: "Food Ninja",
+          title: "Animo Eats",
           theme: themeData,
           onGenerateRoute: AppRouter.onGenerateRoute,
         );

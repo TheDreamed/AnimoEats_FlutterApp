@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:food_ninja/bloc/order/order_bloc.dart';
-import 'package:food_ninja/models/food.dart';
-import 'package:food_ninja/services/firestore_db.dart';
-import 'package:food_ninja/ui/widgets/image_placeholder.dart';
-import 'package:food_ninja/utils/app_colors.dart';
-import 'package:food_ninja/utils/app_styles.dart';
-import 'package:food_ninja/utils/custom_text_style.dart';
+import 'package:animo_eats/bloc/order/order_bloc.dart';
+import 'package:animo_eats/models/food.dart';
+import 'package:animo_eats/services/firestore_db.dart';
+import 'package:animo_eats/ui/widgets/image_placeholder.dart';
+import 'package:animo_eats/utils/app_colors.dart';
+import 'package:animo_eats/utils/app_styles.dart';
+import 'package:animo_eats/utils/custom_text_style.dart';
 import 'package:shimmer/shimmer.dart';
 
 class CartItem extends StatefulWidget {

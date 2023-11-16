@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:food_ninja/bloc/settings/settings_bloc.dart';
-import 'package:food_ninja/bloc/theme/theme_bloc.dart';
-import 'package:food_ninja/ui/widgets/buttons/back_button.dart';
-import 'package:food_ninja/ui/widgets/loading_indicator.dart';
-import 'package:food_ninja/utils/app_colors.dart';
-import 'package:food_ninja/utils/app_theme.dart';
-import 'package:food_ninja/utils/custom_text_style.dart';
+import 'package:animo_eats/bloc/settings/settings_bloc.dart';
+import 'package:animo_eats/bloc/theme/theme_bloc.dart';
+import 'package:animo_eats/ui/widgets/buttons/back_button.dart';
+import 'package:animo_eats/ui/widgets/loading_indicator.dart';
+import 'package:animo_eats/utils/app_colors.dart';
+import 'package:animo_eats/utils/app_theme.dart';
+import 'package:animo_eats/utils/custom_text_style.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
 class SettingsScreen extends StatelessWidget {
