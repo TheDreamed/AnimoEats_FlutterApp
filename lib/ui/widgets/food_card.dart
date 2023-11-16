@@ -71,7 +71,7 @@ class FoodCard extends StatelessWidget {
             ),
             const SizedBox(height: 10),
             Text(
-              "\$${food.price}",
+              "₱${food.price}",
               style: CustomTextStyle.size14Weight400Text(),
             ),
           ],

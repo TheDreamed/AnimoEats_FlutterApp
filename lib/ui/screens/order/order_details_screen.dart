@@ -48,7 +48,7 @@ class OrderDetailsScreen extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        '\$${order.subtotal}',
+                        '₱${order.subtotal}',
                         style: CustomTextStyle.size16Weight400Text(
                           Colors.white,
                         ),
@@ -65,7 +65,7 @@ class OrderDetailsScreen extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        '\$${order.deliveryFee}',
+                        '₱${order.deliveryFee}',
                         style: CustomTextStyle.size16Weight400Text(
                           Colors.white,
                         ),
@@ -82,7 +82,7 @@ class OrderDetailsScreen extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        '\$${order.discount}',
+                        '₱${order.discount}',
                         style: CustomTextStyle.size16Weight400Text(
                           Colors.white,
                         ),
@@ -100,7 +100,7 @@ class OrderDetailsScreen extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        '\$${order.total.toStringAsFixed(2)}',
+                        '₱${order.total.toStringAsFixed(2)}',
                         style: CustomTextStyle.size22Weight600Text(
                           Colors.white,
                         ),
@@ -199,7 +199,7 @@ class OrderDetailsScreen extends StatelessWidget {
                                       ).createShader(rect);
                                     },
                                     child: Text(
-                                      "\$${item.price.toStringAsFixed(2)}",
+                                      "₱${item.price.toStringAsFixed(2)}",
                                       style:
                                           CustomTextStyle.size18Weight600Text(
                                         Colors.white,

@@ -50,7 +50,7 @@ class OrderItem extends StatelessWidget {
                     ),
                   ),
                   Text(
-                    "\$${order.total.toStringAsFixed(2)}",
+                    "₱${order.total.toStringAsFixed(2)}",
                     style: const TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.w600,

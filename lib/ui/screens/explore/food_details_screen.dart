@@ -203,7 +203,7 @@ class _FoodDetailsScreenState extends State<FoodDetailsScreen> {
                           ),
                         ),
                         Text(
-                          "\$${widget.food.price}",
+                          "₱${widget.food.price}",
                           style: CustomTextStyle.size22Weight600Text(
                             AppColors.secondaryDarkColor,
                           ),

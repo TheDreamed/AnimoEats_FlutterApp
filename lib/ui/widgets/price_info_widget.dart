@@ -49,7 +49,7 @@ class PriceInfoWidget extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        '\$${OrderRepository.subtotal}',
+                        '₱${OrderRepository.subtotal}',
                         style: CustomTextStyle.size16Weight400Text(
                           Colors.white,
                         ),
@@ -66,7 +66,7 @@ class PriceInfoWidget extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        '\$${OrderRepository.deliveryFee}',
+                        '₱${OrderRepository.deliveryFee}',
                         style: CustomTextStyle.size16Weight400Text(
                           Colors.white,
                         ),
@@ -83,7 +83,7 @@ class PriceInfoWidget extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        '\$${OrderRepository.discount}',
+                        '₱${OrderRepository.discount}',
                         style: CustomTextStyle.size16Weight400Text(
                           Colors.white,
                         ),
@@ -101,7 +101,7 @@ class PriceInfoWidget extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        '\$${OrderRepository.total.toStringAsFixed(2)}',
+                        '₱${OrderRepository.total.toStringAsFixed(2)}',
                         style: CustomTextStyle.size22Weight600Text(
                           Colors.white,
                         ),

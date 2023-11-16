@@ -94,7 +94,7 @@ class _CartItemState extends State<CartItem> {
                   ).createShader(bounds),
                   blendMode: BlendMode.srcIn,
                   child: Text(
-                    "\$${widget.food.price}",
+                    "₱${widget.food.price}",
                     style: CustomTextStyle.size18Weight600Text(
                       Colors.white,
                     ),
