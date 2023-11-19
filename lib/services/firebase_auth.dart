@@ -38,6 +38,8 @@ class FirebaseAuthService {
   // error handling
   String getErrorString(String errorCode) {
     switch (errorCode) {
+      case "invalid-login-credentials":
+        return "Invalid login credentials. Please check your email and password.";
       case "invalid-email":
         return "Your email address appears to be malformed.";
       case "wrong-password":

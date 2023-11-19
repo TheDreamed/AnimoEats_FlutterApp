@@ -43,6 +43,9 @@ class LoginBloc extends Bloc<LoginEvent, LoginState> {
         // emit success
         emit(LoginSuccess());
       } on FirebaseAuthException catch (e) {
+        // Log the error code
+        debugPrint("FirebaseAuthException Code: ${e.code}");
+
         emit(
           LoginError(
             error: FirebaseAuthService(FirebaseAuth.instance).getErrorString(
@@ -50,10 +53,6 @@ class LoginBloc extends Bloc<LoginEvent, LoginState> {
             ),
           ),
         );
-      } catch (e, s) {
-        debugPrint(e.toString());
-        debugPrint(s.toString());
-        emit(LoginError(error: e.toString()));
       }
     });
   }
